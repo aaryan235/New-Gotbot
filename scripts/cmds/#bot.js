@@ -4,7 +4,7 @@ module.exports = {
 config: {
     name: "goibot",
     version: "1.0",
-    author: "Samir",
+    author: "Aaryan",
     countDown: 5,
     role: 0,
     shortDescription: "no-prefix",
@@ -216,9 +216,13 @@ config: {
      return api.sendMessage("I Am Aaryan's, An AI Based Messenger Chatbot.", threadID, messageID);
    };
 
-  if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("বট") == 0)) {
+  if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("BOT") == 0)) {
     var msg = {
-      body: ` ${rand}`
+      body: `🌴🪻🪴${name}🌲🪷🌿, \n\n
+          ${rand} 🍀🌺💦
+
+
+           * ཫ༄𒁍≛⃝𝐌𝐫..𝐀𝐚𝐫𝐲𝐚𝐧🍒`
     }
     return api.sendMessage(msg, threadID, messageID);
   }
