@@ -218,7 +218,7 @@ config: {
 
   if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("BOT") == 0)) {
     var msg = {
-      body: ` 🌴🪻🪴${rand}🌲🪷🌿,\n\n\n༄ཫ𒁍≛⃝𝐌𝐫..𝐀𝐚𝐫𝐲𝐚𝐧🍀🌺💦`
+      body: `🌹🍒💙${rand}🌲🪷🌿,\n\n\n༄ཫ𒁍≛⃝𝐌𝐫..𝐀𝐚𝐫𝐲𝐚𝐧🍀🌺💦`
     }
     return api.sendMessage(msg, threadID, messageID);
   }
