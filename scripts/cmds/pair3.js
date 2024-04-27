@@ -3,7 +3,7 @@ const fs = require ("fs-extra");
 
 module.exports = {
   config: {
-    name: "pair3",
+    name: "pair",
     aliases: [],
     version: "1.0",
     author: "OTINXSANDIP",
@@ -45,7 +45,7 @@ module.exports = {
     imglove.push(fs.createReadStream(__dirname + "/cache/avt2.png"));
 
     var msg = {
-      body: `🥰Successful pairing!\n💌Wish you two hundred years of happiness\n💕Double ratio: ${tle}%\n${namee} 💓 ${name}`,
+      body: `🥰𝐏𝐀𝐈𝐑𝐈𝐍𝐆!🍒\n\n💙🅂🆄︎🄲🅲︎🄴🆂︎🅂🅵︎🅄🅻︎❤️\n\n 𝐋𝐨 𝐌𝐢𝐥 𝐠𝐲𝐢 𝐀𝐚𝐩𝐤𝐨 𝐒𝐞𝐭𝐭𝐢𝐧𝐠 𝐀𝐚𝐩𝐤𝐢\n\n💕 𝗟𝗼𝘃𝗲💝𝗥𝗮𝘁𝗶𝗼: ${tle}%\n\n${namee} 💓 ${name}`,
       mentions: arraytag,
       attachment: imglove
     };
